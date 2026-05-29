@@ -1,0 +1,59 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/wubb0/Documents/pngaaa.com-6825955.png",
+    "width": 30,
+    "height": 15,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+    "type": "os",
+    "key": "\uebc6 OS"
+    },
+    {
+    "type": "host",
+    "key": "\uf4d8 Host"
+    },
+    {
+    "type": "kernel",
+    "key": "\uf303 Kernel"
+    },
+    {
+    "type": "uptime",
+    "key": "\ue38b Uptime"
+    },
+    {
+    "type": "packages",
+    "key": "\uf487 Packages"
+    },
+    {
+    "type": "wm",
+    "key": "\uf2d2 WM",
+    },
+    {
+    "type": "theme",
+    "key": "\udb81\udd0e Theme",
+    },
+    {
+    "type": "cpu",
+    "key": "\uf4bc CPU",
+    },
+    {
+    "type": "gpu",
+    "hideType": "integrated",
+    "key": "\udb83\udfb2 GPU",
+    },
+    {
+    "type": "memory",
+    "key": "\uefc5 Memory",
+    },
+  ]
+}
